@@ -1,79 +1,81 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { useCarrito } from "../Context/CarritoContext"; // Importamos el hook del contexto
-import "../index.css";
+import { useCarrito } from "../Context/CarritoContext";
 import logo from "../assets/logo.webp";
 
 export default function Navbar() {
-  const [menuOpen, setMenuOpen] = useState(false); // Estado para el menú móvil
-  const { carrito } = useCarrito(); // Obtenemos el carrito desde el contexto
+  const [open, setOpen] = useState(false);
+  const { carrito } = useCarrito();
 
-  const toggleMenu = () => setMenuOpen(!menuOpen);
-
-  // Contar la cantidad total de artículos en el carrito
-  const cantidadTotal = carrito.reduce(
-    (total, producto) => total + producto.cantidad,
-    0
-  );
+  // Total de artículos
+  const total = carrito.reduce((sum, p) => sum + p.cantidad, 0);
 
   return (
-    <>
-      <div className="bg-primary inline-flex p-2 w-full justify-between items-center">
-        {/* Logo en la esquina izquierda */}
-        <Link to={"/"}>
-          <img src={logo} alt="Logo" className="w-60 h-30 ml-4" />
+    <header className="bg-primary text-white">
+      {/* Barra principal */}
+      <nav className="container mx-auto flex items-center justify-between p-3 md:p-4">
+        {/* Logo */}
+        <Link to="/" className="flex-shrink-0">
+          <img src={logo} alt="Logo" className="h-10 w-auto md:h-12" />
         </Link>
 
-        {/* Botón de menú en dispositivos pequeños */}
-        <div className="sm:hidden">
-          <button className="text-3xl" onClick={toggleMenu}>
-            &#9776; {/* Ícono de hamburguesa */}
-          </button>
-        </div>
-
-        {/* Contenedor para los textos, centrado */}
-        <div className="text-4xl flex-grow flex justify-center space-x-10 sm:flex pr-10">
-          <Link
-            to="/"
-            className="hover:text-white transform transition duration-300">
-            Inicio
-          </Link>
-          <Link
-            to="/catalogo"
-            className="hover:text-white transform transition duration-300">
-            Productos
-          </Link>
-        </div>
-
-        {/* Íconos de cuenta en la esquina derecha */}
-        <ul className="flex space-x-4">
-          <li className="relative">
-            {/* Ícono de carrito */}
-            <Link to="/carrito">
-              <i className="fa-solid fa-cart-shopping text-5xl cursor-pointer pr-10 hover:text-white transform transition duration-600"></i>
-              {/* Notificación circular con la cantidad de artículos */}
-              {cantidadTotal > 0 && (
-                <div className="absolute top-1 right-13 bg-red-600 text-white text-x rounded-full w-5 h-5 flex items-center justify-center">
-                  {cantidadTotal}
-                </div>
-              )}
+        {/* Links desktop */}
+        <ul className="hidden sm:flex gap-8 text-lg md:text-xl lg:text-2xl font-medium tracking-wide">
+          <li>
+            <Link to="/" className="hover:text-gray-200 transition">
+              Inicio
+            </Link>
+          </li>
+          <li>
+            <Link to="/catalogo" className="hover:text-gray-200 transition">
+              Productos
             </Link>
           </li>
         </ul>
-      </div>
 
-      {/* Menú de navegación móvil */}
-      <div
-        className={`${
-          menuOpen ? "block" : "hidden"
-        } sm:hidden bg-primary text-white text-center space-y-4 py-4`}>
-        <Link to="/" className="block">
-          Inicio
+        {/* Carrito */}
+        <Link
+          to="/carrito"
+          aria-label={`Carrito con ${total} artículo${total !== 1 ? "s" : ""}`}
+          className="relative text-2xl md:text-3xl hover:text-gray-200 transition">
+          <i className="fa-solid fa-cart-shopping" />
+          {total > 0 && (
+            <span className="absolute -top-1.5 -right-2 w-5 h-5 flex items-center justify-center rounded-full bg-red-600 text-xs leading-none">
+              {total}
+            </span>
+          )}
         </Link>
-        <Link to="/catalogo" className="block">
-          Productos
-        </Link>
-      </div>
-    </>
+
+        {/* Hamburguesa móvil */}
+        <button
+          onClick={() => setOpen(!open)}
+          className="sm:hidden text-3xl focus:outline-none focus-visible:ring-2 focus-visible:ring-white"
+          aria-label={open ? "Cerrar menú" : "Abrir menú"}>
+          {open ? (
+            <i className="fa-solid fa-xmark" />
+          ) : (
+            <i className="fa-solid fa-bars" />
+          )}
+        </button>
+      </nav>
+
+      {/* Menú móvil */}
+      {open && (
+        <div className="sm:hidden bg-primary/95 backdrop-blur-md">
+          <ul className="flex flex-col items-center gap-4 py-4 text-lg">
+            <li>
+              <Link to="/" onClick={() => setOpen(false)}>
+                Inicio
+              </Link>
+            </li>
+            <li>
+              <Link to="/catalogo" onClick={() => setOpen(false)}>
+                Productos
+              </Link>
+            </li>
+          </ul>
+        </div>
+      )}
+    </header>
   );
 }

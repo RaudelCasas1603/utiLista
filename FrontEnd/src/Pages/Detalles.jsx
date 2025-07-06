@@ -1,131 +1,212 @@
-import React, { useState } from "react";
-import { useCarrito } from "../Context/CarritoContext"; // Importamos el hook del contexto
+import { useCarrito } from "../Context/CarritoContext";
 import "../index.css";
-import logo from "../assets/logo.webp";
-import { Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 export default function Detalles() {
-  const producto = {
-    id: 1,
-    sku: "A1009",
-    nombre: "Lapiz Mae",
-    descripcion: "Lápiz de color amarillo con goma de borrar",
-    precio: 29.99,
-    categoria: "Escritura",
-    marca: "Mae",
-    imagen: "/assets/productos/Mae/Lapices/A1006.webp",
-    colores: ["#FFD700", "#FF6347", "#32CD32"], // Ejemplo de colores
-  };
-
+  const { sku } = useParams();
+  const [producto, setProducto] = useState(null);
   const [cantidad, setCantidad] = useState(1);
-  const [colorSeleccionado, setColorSeleccionado] = useState(
-    producto.colores[0]
-  );
+  const [colorSeleccionado, setColorSeleccionado] = useState(null);
   const [mensaje, setMensaje] = useState("");
 
-  // Usamos el hook del contexto para acceder a la función agregarAlCarrito
   const { agregarAlCarrito } = useCarrito();
 
-  // Funciones para aumentar y disminuir la cantidad
+  useEffect(() => {
+    fetch(`/api/productos/${sku}`)
+      .then((res) => res.json())
+      .then((data) => {
+        setProducto(data);
+        const variantes =
+          data.variantes?.split(",").map((v) => v.trim().toUpperCase()) || [];
+        if (variantes.length > 0) {
+          setColorSeleccionado(variantes[0]);
+        }
+      })
+      .catch((error) => console.error("Error cargando producto:", error));
+  }, [sku]);
+
+  if (!producto) {
+    return (
+      <p className="text-center text-gray-600 mt-10">Cargando producto...</p>
+    );
+  }
+
   const aumentarCantidad = () => setCantidad(cantidad + 1);
   const disminuirCantidad = () => setCantidad(cantidad > 1 ? cantidad - 1 : 1);
 
-  // Función para manejar la acción de agregar al carrito
   const handleAgregarAlCarrito = () => {
     const productoConColor = {
-      ...producto, // Copiamos todas las propiedades del producto
-      color: colorSeleccionado, // Agregamos el color seleccionado
-      cantidad, // Agregamos la cantidad seleccionada
+      sku: producto.sku,
+      nombre: producto.descripcion,
+      precio: producto.costo ?? 0,
+      imagen: producto.imagen,
+      ...(colorSeleccionado && { color: colorSeleccionado }),
+      cantidad,
     };
 
-    // Llamamos a la función agregarAlCarrito del contexto
     agregarAlCarrito(productoConColor);
 
     setMensaje("Producto agregado al carrito con éxito!");
-    setTimeout(() => {
-      setMensaje(""); // Limpiamos el mensaje después de 3 segundos
-    }, 1000);
-
-    // Reiniciamos la cantidad y el color seleccionado
+    setTimeout(() => setMensaje(""), 1000);
     setCantidad(1);
-    setColorSeleccionado(producto.colores[0]);
+    const variantes =
+      producto.variantes?.split(",").map((v) => v.trim().toUpperCase()) || [];
+    setColorSeleccionado(variantes[0] || null);
   };
 
+  const coloresHex = {
+    ROJO: "#FF0000",
+    NEGRO: "#000000",
+    AZUL: "#0000FF",
+    "AZUL CLARO": "#87CEFA",
+    "AZUL CELESTE": "#87CEEB",
+    "AZUL CIELO": "#87CEEB",
+    "AZUL OBSCURO": "#00008B",
+    "AZUL PASTEL": "#B0E0E6",
+    "AZUL REY": "#0033A0",
+    "AZUL ULTRAMAR": "#3F00FF",
+    VERDE: "#008000",
+    "VERDE LIMON": "#BFFF00",
+    "VERDE NEON": "#39FF14",
+    AMARILLO: "#FFD700",
+    "AMARILLO NEON": "#FFFF33",
+    ROSA: "#FFC0CB",
+    "ROSA CLARO": "#FFB6C1",
+    "ROSA MEXICANO": "#E4007C",
+    "ROSA PASTEL": "#FFD1DC",
+    MORADO: "#800080",
+    LILA: "#C8A2C8",
+    FIUSHA: "#D30094",
+    VIOLETA: "#8F00FF",
+    BLANCO: "#FFFFFF",
+    NARANJA: "#FFA500",
+    PAPAYA: "#FFEFD5",
+    MAGENTA: "#FF00FF",
+    CAFE: "#8B4513",
+    CAFÉ: "#8B4513",
+    GRIS: "#808080",
+    CARNE: "#FAD6A5",
+    "PLATA ORO": "#D4AF37",
+    METÁLICO: "#D4AF37",
+    LIMON: "#FDFD96",
+    "VARIOS COLORES": "gradient",
+    DEFAULT: "#CCCCCC",
+  };
+
+  const variantes = producto.variantes
+    ? producto.variantes.split(",").map((v) => v.trim().toUpperCase())
+    : [];
+
+  const isCuaderno = producto.categoria?.trim().toLowerCase() === "cuadernos";
+
   return (
-    <>
-      <div className="flex flex-col sm:flex-row p-6 space-x-6 items-center justify-between max-w-screen-lg mx-auto">
-        {/* Imagen del producto */}
-        <div className="w-full sm:w-1/2 mb-8 sm:mb-0">
-          <div className="border-4 border-gray-300 p-2 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+    <div className="max-w-screen-lg mx-auto px-4 sm:px-6 lg:px-8 py-8">
+      <div className="flex flex-col sm:flex-row gap-8 items-start">
+        {/* Imagen */}
+        <div className="w-full sm:w-1/2">
+          <div className="border-4 border-gray-200 p-2 rounded-lg shadow hover:shadow-lg transition duration-300">
             <img
-              src={producto.imagen}
+              src={`/static${producto.imagen}`}
               alt={producto.nombre}
-              className="w-full h-auto"
+              className="w-full h-auto object-contain"
             />
           </div>
         </div>
 
-        {/* Detalles del producto */}
+        {/* Detalles */}
         <div className="w-full sm:w-1/2 space-y-4">
-          <h1 className="text-3xl font-bold">{producto.nombre}</h1>
-          <p className="text-lg text-gray-700">{producto.descripcion}</p>
-          <p className="text-xl text-gray-900 font-semibold">{`$${producto.precio.toFixed(
-            2
-          )}`}</p>
-          <p className="text-lg text-gray-600">{producto.categoria}</p>
-          <p className="text-lg text-gray-600">{producto.marca}</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800">
+            {producto.descripcion}
+          </h1>
+          <p className="text-xl text-gray-900 font-semibold">
+            ${producto.costo}
+          </p>
+          <p className="text-md text-gray-600">{producto.categoria}</p>
+          <p className="text-md text-gray-600">{producto.marca}</p>
 
-          {/* Opciones de color */}
-          <div className="flex items-center space-x-4">
-            <p className="text-lg font-semibold">Color:</p>
-            <div className="flex space-x-2">
-              {producto.colores.map((color, index) => (
-                <div
-                  key={index}
-                  className={`w-8 h-8 rounded-full border-2 ${
-                    color === colorSeleccionado
-                      ? "border-gray-800"
-                      : "border-transparent"
-                  } cursor-pointer`}
-                  style={{ backgroundColor: color }}
-                  onClick={() => setColorSeleccionado(color)}></div>
-              ))}
+          {/* Variantes */}
+          {variantes.length > 0 && (
+            <div>
+              <p className="text-lg font-medium mb-2">
+                {isCuaderno ? "Rayado:" : "Colores disponibles:"}
+              </p>
+              <div
+                className={`${
+                  isCuaderno ? "flex flex-wrap gap-2" : "grid grid-cols-6 gap-2"
+                }`}>
+                {variantes.map((color, i) => {
+                  if (isCuaderno) {
+                    return (
+                      <button
+                        key={i}
+                        onClick={() => setColorSeleccionado(color)}
+                        className={`px-3 py-1 rounded-full border text-sm font-medium transition ${
+                          colorSeleccionado === color
+                            ? "bg-primary text-white"
+                            : "bg-gray-200 text-gray-800"
+                        }`}>
+                        {color}
+                      </button>
+                    );
+                  }
+
+                  const isGradient = coloresHex[color] === "gradient";
+                  const bgStyle = isGradient
+                    ? {
+                        backgroundImage:
+                          "linear-gradient(135deg, red, orange, yellow, green, blue, indigo, violet)",
+                      }
+                    : { backgroundColor: coloresHex[color] || "#ccc" };
+
+                  return (
+                    <button
+                      key={i}
+                      title={color}
+                      onClick={() => setColorSeleccionado(color)}
+                      className={`w-8 h-8 rounded-full border-2 transition ${
+                        colorSeleccionado === color
+                          ? "border-gray-800 scale-110"
+                          : "border-transparent"
+                      }`}
+                      style={bgStyle}
+                    />
+                  );
+                })}
+              </div>
             </div>
-          </div>
+          )}
 
           {/* Cantidad y botón */}
-          <div className="flex items-center space-x-4 mt-4">
-            <div className="flex items-center space-x-2">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mt-6">
+            <div className="flex items-center gap-3">
               <button
                 onClick={disminuirCantidad}
-                className="bg-gray-200 p-2 rounded-full hover:bg-gray-300 transition">
-                -
+                className="bg-gray-200 px-3 py-1 rounded-full text-xl font-semibold hover:bg-gray-300">
+                −
               </button>
               <span className="text-lg font-semibold">{cantidad}</span>
               <button
                 onClick={aumentarCantidad}
-                className="bg-gray-200 p-2 rounded-full hover:bg-gray-300 transition">
+                className="bg-gray-200 px-3 py-1 rounded-full text-xl font-semibold hover:bg-gray-300">
                 +
               </button>
             </div>
 
             <button
-              onClick={handleAgregarAlCarrito} // Llamada a la función aquí
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg text-xl font-semibold hover:bg-blue-700 transition duration-300">
+              onClick={handleAgregarAlCarrito}
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg text-lg font-medium hover:bg-blue-700 transition">
               Agregar al Carrito
             </button>
           </div>
 
-          {/* Mensaje de confirmación */}
           {mensaje && (
-            <div className="mt-4 text-center text-green-600 font-semibold">
+            <div className="text-green-600 text-center font-medium mt-4">
               {mensaje}
             </div>
           )}
-
-          <div></div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

@@ -15,7 +15,8 @@ export function CarritoProvider({ children }) {
     if (productoExistente) {
       setCarrito((prevCarrito) =>
         prevCarrito.map((item) =>
-          item.sku === producto.sku && item.color === producto.color
+          item.sku === producto.sku &&
+          (item.color ?? null) === (producto.color ?? null)
             ? {
                 ...item,
                 cantidad: reemplazarCantidad

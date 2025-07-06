@@ -1,0 +1,281 @@
+id,sku,marca,descripcion,variantes,costo,categoria,imagen
+279,PROD-0001,Mae,MAE LÁPIZ ADHESIVO MAE 9G,NULL,$10.33,Pegamentos,/Imagenes_Catalogo/Mae/Adhesivo/A0201.webp
+280,PROD-0002,Mae,MAE LÁPIZ ADHESIVO MAE 20G,NULL,$25.11,Pegamentos,/Imagenes_Catalogo/Mae/Adhesivo/A0202.webp
+281,PROD-0003,Mae,MAE LÁPIZ ADHESIVO MAE 40G,NULL,$34.41,Pegamentos,/Imagenes_Catalogo/Mae/Adhesivo/A0203.webp
+282,PROD-0004,Mae,MAE GOMA BLANCA C/30 GM-30BE,NULL,$150.66,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0301.webp
+283,PROD-0005,Mae,MAE GOMA BLANCA GM-30BE SUELTA,NULL,$10.33,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0302.webp
+284,PROD-0006,Mae,MAE GOMA TIPO MIGAJÓN C/40 GM-40MJ,NULL,$150.66,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0303.webp
+285,PROD-0007,Mae,MAE GOMA TIPO MIGAJÓN GM-40MJ SUELTO,NULL,$10.33,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0304.webp
+286,PROD-0008,Mae,MAE GOMA TIPO MIGAJÓN C/20 GM-20MJ,NULL,$150.66,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0305.webp
+287,PROD-0009,Mae,MAE GOMA TIPO MIGAJÓN GM-20MJ SUELTO,NULL,$10.33,Borradores,/Imagenes_Catalogo/Mae/Borrador/A0306.webp
+288,PROD-0010,Mae,MAE CALCULADORA MC-1000,NULL,$53.94,Calculadoras,/Imagenes_Catalogo/Mae/Calculadoras/A0401.webp
+289,PROD-0011,Mae,MAE CALCULADORA CIENTÍFICA MCC-56,NULL,$87.42,Calculadoras,/Imagenes_Catalogo/Mae/Calculadoras/A0402.webp
+290,PROD-0012,Mae,MAE COMPAS ECO CBL PARA LAPIZ,NULL,$18.60,Geometria,/Imagenes_Catalogo/Mae/Compas/A0501.webp
+291,PROD-0013,Mae,MAE COMPÁS ESCOLAR CEP-10,NULL,$30.69,Geometria,/Imagenes_Catalogo/Mae/Compas/A0502.webp
+292,PROD-0014,Mae,MAE COMPAS PRECISIÓN PLASTICO CPP-2,NULL,$28.83,Geometria,/Imagenes_Catalogo/Mae/Compas/A0503.webp
+293,PROD-0015,Mae,MAE CONTAC 45CMX20M PVC-4520,NULL,$351.33,Contac,/Imagenes_Catalogo/Mae/Contac/A0601.webp
+294,PROD-0016,Mae,MAE CORRECTOR CINTA RETRACTIL COC-56,NULL,$59.52,Escritura,/Imagenes_Catalogo/Mae/Correctores/A0701.webp
+295,PROD-0017,Mae,MAE CRAYON ESCOLAR TRIANGULAR C/12,NULL,$20.46,Arte,/Imagenes_Catalogo/Mae/Crayones/A0801.webp
+296,PROD-0018,Mae,MAE CRAYON JUMBO ESCOLAR TRIANGULAR C/12,NULL,$35.34,Arte,/Imagenes_Catalogo/Mae/Crayones/A0802.webp
+297,PROD-0019,Mae,MAE CRAYON ESCOLAR TRIANGULAR C/24,NULL,$35.34,Arte,/Imagenes_Catalogo/Mae/Crayones/A0803.webp
+298,PROD-0020,Mae,MAE CRAYON JUMBO ESCOLAR TRIANGULAR C/24,NULL,$68.82,Arte,/Imagenes_Catalogo/Mae/Crayones/A0804.webp
+299,PROD-0021,Mae,MAE JUEGO GEOMETRIA FLEXIBLE JGF,NULL,$106.02,Geometria,/Imagenes_Catalogo/Mae/J Geometria/A0901.webp
+300,PROD-0022,Mae,MAE REGLA FLEXIBLE DE 30CM RF-30,NULL,$18.60,Geometria,/Imagenes_Catalogo/Mae/J Geometria/A0902.webp
+301,PROD-0023,Mae,MAE LAPIZ DUO CARMIN Y GRAFITO C/10 DT-10,NULL,$87.42,Escritura,/Imagenes_Catalogo/Mae/Lapices/A1001.webp
+302,PROD-0024,Mae,MAE COLORES TRIANGULARES 12X24 CM-12B,NULL,$104.16,Arte,/Imagenes_Catalogo/Mae/Lapices/A1002.webp
+303,PROD-0025,Mae,MAE COLORES LARGOS JUMBO C/12 CMJ-12T,NULL,$163.68,Arte,/Imagenes_Catalogo/Mae/Lapices/A1003.webp
+304,PROD-0026,Mae,MAE COLORES LARGOS TRIANGULARES C/12 CMT-12L,NULL,$92.07,Arte,/Imagenes_Catalogo/Mae/Lapices/A1004.webp
+305,PROD-0027,Mae,MAE COLORES PREMIUM C/12,NULL,$104.16,Arte,/Imagenes_Catalogo/Mae/Lapices/A1005.webp
+306,PROD-0028,Mae,MAE COLORES TRIANGULARES 18X36 CM-18B,NULL,$156.24,Arte,/Imagenes_Catalogo/Mae/Lapices/A1006.webp
+307,PROD-0029,Mae,MAE COLORES LARGOS REDONDOS C/24 CM-24L,NULL,$159.96,Arte,/Imagenes_Catalogo/Mae/Lapices/A1007.webp
+308,PROD-0030,Mae,MAE COLORES LARGOS TRIANGULARES C/24 CMT-24L,NULL,$184.14,Arte,/Imagenes_Catalogo/Mae/Lapices/A1008.webp
+309,PROD-0031,Mae,MAE LAPIZ NO 2 LM-12,NULL,$5.58,Escritura,/Imagenes_Catalogo/Mae/Lapices/A1009.webp
+310,PROD-0032,Mae,MAE COLORES CORTOS C/12 CM-12C,NULL,$45.57,Arte,/Imagenes_Catalogo/Mae/Lapices/A1010.webp
+311,PROD-0033,Mae,MAE COLORES LARGOS C/12 CM-12L,NULL,$79.98,Arte,/Imagenes_Catalogo/Mae/Lapices/A1011.webp
+312,PROD-0034,Mae,MAE COLORES PASTELES CAJA CON 12 PZAS L 4 MM,NULL,$113.46,Arte,/Imagenes_Catalogo/Mae/Lapices/A1012.webp
+313,PROD-0035,Mae,MAE COLORES PREMIUM C/24,NULL,$208.32,Arte,/Imagenes_Catalogo/Mae/Lapices/A1013.webp
+314,PROD-0036,Mae,MAE LAPIZ CHECADOR AZUL RCM-10A,NULL,$8.37,Escritura,/Imagenes_Catalogo/Mae/Lapices/A1014.webp
+315,PROD-0037,Mae,MAE LAPIZ CHECADOR ROJO C/10 RCM-10,NULL,$83.70,Escritura,/Imagenes_Catalogo/Mae/Lapices/A1015.webp
+316,PROD-0038,Mae,MAE LAPIZ CHECADOR VERDE RCM-10V,NULL,$8.37,Escritura,/Imagenes_Catalogo/Mae/Lapices/A1016.webp
+317,PROD-0039,Mae,MAE SACAPUNTAS DEPÓSITO RECT METALICO SMD-1C,VARIOS COLORES,$19.53,Escritura,/Imagenes_Catalogo/Mae/Sacapuntas/A1101.webp
+318,PROD-0040,Mae,MAE SACAPUNTAS DEPÓSITO RECT PLASTICO SPD-1CH,VARIOS COLORES,$9.30,Escritura,/Imagenes_Catalogo/Mae/Sacapuntas/A1102.webp
+319,PROD-0041,Mae,MAE SACAPUNTAS DOBLE CON DEPOSITO PLASTICO SPD-2G,VARIOS COLORES,$14.88,Escritura,/Imagenes_Catalogo/Mae/Sacapuntas/A1103.webp
+320,PROD-0042,Mae,MAE SACAPUNTAS METÁLICO SENCILLO SMT-24,NULL,$5.58,Escritura,/Imagenes_Catalogo/Mae/Sacapuntas/A1104.webp
+321,PROD-0043,Mae,MAE SOBRE DE PLASTICO CON HILO CARTA,"VERTICAL, HORIZONTAL; SURTIDO, PASTELES, SOLIDOS",$93.00,Folders,/Imagenes_Catalogo/Mae/Sobres/A1201.webp
+322,PROD-0044,Mae,MAE SOBRE DE PLASTICO CON HILO OFICIO,"VERTICAL, HORIZONTAL; SURTIDO, PASTELES, SOLIDOS",$24.18,Folders,/Imagenes_Catalogo/Mae/Sobres/A1202.webp
+323,PROD-0045,Mae,MAE TIJERA ESCOLAR 4'' MT-4,NULL,$26.04,Tijeras,/Imagenes_Catalogo/Mae/Tijeras/A1301.webp
+324,PROD-0046,Mae,MAE TIJERA 5'' MAE MT-5R,"NORMAL, ZURDA",$22.32,Tijeras,/Imagenes_Catalogo/Mae/Tijeras/A1302.webp
+325,PROD-0047,Artline,ARTLINE ACUARELAS CON 12 PASTILLAS AA12P,NULL,$55.80,Arte,/Imagenes_Catalogo/Artline/Acuarelas/B0201.webp
+326,PROD-0048,Artline,ARTLINE ACUARELAS CON 8 AA8P,NULL,$39.06,Arte,/Imagenes_Catalogo/Artline/Acuarelas/B0202.webp
+327,PROD-0049,Artline,ARTLINE BORRADOR MAGNETICO GRANDE,NULL,$31.62,Borradores,/Imagenes_Catalogo/Artline/Borrador Pintarron/B0301.webp
+328,PROD-0050,Artline,ARTLINE BORRADOR MAGNETICO CHICO,NULL,$25.11,Borradores,/Imagenes_Catalogo/Artline/Borrador Pintarron/B0302.webp
+329,PROD-0051,Artline,ARTLINE AINK CLIP #2,NULL,$22.32,Oficina,/Imagenes_Catalogo/Artline/Clips/B0401.webp
+330,PROD-0052,Artline,ARTLINE AINK CLIP #1,NULL,$20.46,Oficina,/Imagenes_Catalogo/Artline/Clips/B0402.webp
+331,PROD-0053,Artline,ARTLINE CORRECTOR DUO DE 15 ML,NULL,$30.69,Escritura,/Imagenes_Catalogo/Artline/Correctores/B0501.webp
+332,PROD-0054,Artline,ARTLINE CORRECTOR TIPO PLUMA AINK,NULL,$20.46,Escritura,/Imagenes_Catalogo/Artline/Correctores/B0502.webp
+333,PROD-0055,Artline,ARTLINE CORRECTOR BROCHA AINK ACB12,NULL,$12.09,Escritura,/Imagenes_Catalogo/Artline/Correctores/B0503.webp
+334,PROD-0056,Artline,ARTLINE CORRECTOR EN CINTA AINK CCI8BL,NULL,$26.04,Escritura,/Imagenes_Catalogo/Artline/Correctores/B0504.webp
+335,PROD-0057,Artline,ARTLINE MARCADOR AINK AGUA GRUESO,"AZUL, NEGRO, ROJO ",$13.95,Marcadores,/Imagenes_Catalogo/Artline/Marcador de Agua/B0601.webp
+336,PROD-0058,Artline,ARTLINE ESTUCHE MARCADOR AGUA C/12 SURTIDO AMAC12E,NULL,$167.40,Marcadores,/Imagenes_Catalogo/Artline/Marcador de Agua/B0602.webp
+337,PROD-0059,Artline,ARTLINE AINK MARCADOR CERA,"ROJO, AZUL, VERDE, BLANCO, AMARILLO, NEGRO",$15.81,Marcadores,/Imagenes_Catalogo/Artline/Marcador de Cera/B0701.webp
+338,PROD-0060,Artline,ARTLINE MARCADOR PERMANENTE 109,"ROJO, NEGRO, AZUL, VERDE",$22.32,Marcadores,/Imagenes_Catalogo/Artline/Marcador Permanente/B0801.webp
+339,PROD-0061,Artline,ARTLINE AINK MARCADOR PINTARRON,"ROJO, NEGRO, AZUL, VERDE",$13.02,Marcadores,/Imagenes_Catalogo/Artline/Marcador Pintarron/B0901.webp
+340,PROD-0062,Artline,ARTLINE MARCATEXTOS AINK PASTELES C/6 AHB6P,CAJA CON 6 COLORES SURTIDOS,$87.42,Marcadores,/Imagenes_Catalogo/Artline/Marcatextos/B1001.webp
+341,PROD-0063,Artline,ARTLINE AINK MARCATEXTOS PUNTA CINCEL,"AMARILLO, NARANJA, VERDE, ROSA, AZUL",$10.23,Marcadores,/Imagenes_Catalogo/Artline/Marcatextos/B1002.webp
+342,PROD-0064,Artline,ARTLINE AINK PLUMINES DELGADOS EST/ 24 DELG,NULL,$111.60,Marcadores,/Imagenes_Catalogo/Artline/Plumones/B1101.webp
+343,PROD-0065,Artline,ARTLINE AINK PLUMINES DELGADOS EST/ 6 DELG,NULL,$29.76,Marcadores,/Imagenes_Catalogo/Artline/Plumones/B1102.webp
+344,PROD-0066,Artline,ARTLINE AINK PLUMINES DELGADOS,"ROJO, AZUL, NEGRO",$4.65,Marcadores,/Imagenes_Catalogo/Artline/Plumones/B1103.webp
+345,PROD-0067,Artline,ARTLINE AINK PLUMINES DELGADOS EST/12 DELG,NULL,$55.80,Marcadores,/Imagenes_Catalogo/Artline/Plumones/B1104.webp
+346,PROD-0068,Artline,ARTLINE TIJERA ESCOLAR A-INK T-5,NULL,$14.88,Tijeras,/Imagenes_Catalogo/Artline/Tijeras/B1201.webp
+347,PROD-0069,Pelikan,PELIKAN ACUARELA ESCOLAR 12 CAMIONCITO,NULL,$52.08,Arte,/Imagenes_Catalogo/Pelikan/Acuarelas/C0201.webp
+348,PROD-0070,Pelikan,PELIKAN ACUARELA PASTEL 6,NULL,$32.55,Arte,/Imagenes_Catalogo/Pelikan/Acuarelas/C0202.webp
+349,PROD-0071,Pelikan,PELIKAN ACUARELA INFANTIL 12,NULL,$28.83,Arte,/Imagenes_Catalogo/Pelikan/Acuarelas/C0203.webp
+350,PROD-0072,Pelikan,PELIKAN ACUARELA INFANTIL 6,NULL,$20.46,Arte,/Imagenes_Catalogo/Pelikan/Acuarelas/C0204.webp
+351,PROD-0073,Pelikan,PELIKAN BATA MANGA LARGA,NULL,$202.74,Arte,/Imagenes_Catalogo/Pelikan/Batas/C0301.webp
+352,PROD-0074,Pelikan,PELIKAN BATA SIN MANGA,NULL,$146.94,Arte,/Imagenes_Catalogo/Pelikan/Batas/C0302.webp
+353,PROD-0075,Pelikan,PELIKAN GOMA BR40,NULL,$11.16,Borradores,/Imagenes_Catalogo/Pelikan/Borrador/C0401.webp
+354,PROD-0076,Pelikan,PELIKAN GOMA M 20,NULL,$9.30,Borradores,/Imagenes_Catalogo/Pelikan/Borrador/C0402.webp
+355,PROD-0077,Pelikan,PELIKAN GOMA M 40,NULL,$5.58,Borradores,/Imagenes_Catalogo/Pelikan/Borrador/C0403.webp
+356,PROD-0078,Pelikan,PELIKAN MARCADOR GRUESO DE AGUA COLORELA,"AMARILLO, AZUL CLARO, AZUL OBSCURO, MAGENTA, NEGRO, NARANJA, ROJO, ROSA, VERDE LIMON, VERDE, VIOLETA",$19.53,Marcadores,/Imagenes_Catalogo/Pelikan/Colorela/C0501.webp
+357,PROD-0079,Pelikan,PELIKAN ESTUCHE COLORELA C/12 SURTIDO,NULL,$232.50,Arte,/Imagenes_Catalogo/Pelikan/Colorela/C0502.webp
+358,PROD-0080,Pelikan,PELIKAN CORRECTOR AQUA FLUID CON BROCHA,NULL,$22.32,Escritura,/Imagenes_Catalogo/Pelikan/Correctores/C0601.webp
+359,PROD-0081,Pelikan,PELIKAN CORRECTOR T/PLUMA MINI,NULL,$31.62,Escritura,/Imagenes_Catalogo/Pelikan/Correctores/C0602.webp
+360,PROD-0082,Pelikan,PELIKAN CORRECTOR T/PLUMA CORRECTO,NULL,$39.06,Escritura,/Imagenes_Catalogo/Pelikan/Correctores/C0603.webp
+361,PROD-0083,Pelikan,PELIKAN PELICRAYONES REDONDOS JUMBO C/12,NULL,$59.52,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0701.webp
+362,PROD-0084,Pelikan,PELIKAN PELICRAYONES TRIANGULAR C/12,NULL,$35.34,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0702.webp
+363,PROD-0085,Pelikan,PELIKAN PELICRAYONES JUMBO TRIANGULAR C/24,NULL,$132.06,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0703.webp
+364,PROD-0086,Pelikan,PELIKAN PELICRAYONES JUMBO TRIANGULAR C/12,NULL,$66.96,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0704.webp
+365,PROD-0087,Pelikan,PELIKAN PELICRAYONES REDONDO C/12,NULL,$34.41,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0705.webp
+366,PROD-0088,Pelikan,PELIKAN PELICRAYONES REDONDOS JUMBO C/24,NULL,$132.06,Arte,/Imagenes_Catalogo/Pelikan/Crayones/C0706.webp
+367,PROD-0089,Pelikan,PELIKAN JUEGO DE GEOMETRIA MEDIANO CON COMPAS DE PREC,NULL,$76.26,Geometria,/Imagenes_Catalogo/Pelikan/Juego Geo/C0801.webp
+368,PROD-0090,Pelikan,PELIKAN BICOLOR DELGADO ROJO/AZUL,NULL,$8.56,Escritura,/Imagenes_Catalogo/Pelikan/Lapices/C0901.webp
+369,PROD-0091,Pelikan,PELIKAN COLORES REDONDOS C/24 LARGOS,NULL,$182.28,Arte,/Imagenes_Catalogo/Pelikan/Lapices/C0902.webp
+370,PROD-0092,Pelikan,PELIKAN LAPIZ AMA #2 HB HEXAGONAL,NULL,$5.58,Escritura,/Imagenes_Catalogo/Pelikan/Lapices/C0903.webp
+371,PROD-0093,Pelikan,PELIKAN LAPIZ AMA #2 HB TRIANGULAR,NULL,$5.58,Escritura,/Imagenes_Catalogo/Pelikan/Lapices/C0904.webp
+372,PROD-0094,Pelikan,PELIKAN COLORES PASTEL C/12,NULL,$91.14,Arte,/Imagenes_Catalogo/Pelikan/Lapices/C0905.webp
+373,PROD-0095,Pelikan,PELIKAN COLORES REDONDOS C/12 LARGOS,NULL,$91.14,Arte,/Imagenes_Catalogo/Pelikan/Lapices/C0906.webp
+374,PROD-0096,Pelikan,PELIKAN COLORES  TRIANGULAR C/12 LARGOS,NULL,$96.72,Arte,/Imagenes_Catalogo/Pelikan/Lapices/C0907.webp
+375,PROD-0097,Pelikan,PELIKAN COLORES  TRIANGULAR C/24 LARGOS,NULL,$193.44,Arte,/Imagenes_Catalogo/Pelikan/Lapices/C0908.webp
+376,PROD-0098,Pelikan,PELIKAN LAPIZ DUO DUPLY GRAFITO/ROJO,NULL,$10.23,Escritura,/Imagenes_Catalogo/Pelikan/Lapices/C0909.webp
+377,PROD-0099,Pelikan,PELIKAN LAPIZ INICIAL JUMBO #2,NULL,$21.39,Escritura,/Imagenes_Catalogo/Pelikan/Lapices/C0910.webp
+378,PROD-0100,Pelikan,PELIKAN MAGIMASA,"AMARILLO, AZUL, NARANJA, ROJO, ROSA PASTEL, VERDE, MORADO, BLANCO,AMARILLO NEON, VERDE NEON, CAFE, NEGRO, VERDE LIMON, AZUL CLARO ",$32.55,Arte,/Imagenes_Catalogo/Pelikan/magimasa/C1001.webp
+379,PROD-0101,Pelikan,PELIKAN MARCADOR DE CERA,"ROJO, AZUL, VERDE, BLANCO, AMARILLO, NEGRO",$17.67,Marcadores,/Imagenes_Catalogo/Pelikan/Marcadores Cera/C1101.webp
+380,PROD-0102,Pelikan,PELIKAN MARCADOR DELGADO TWIST,"AMARILLO, AZUL, NEGRO, ROJO",$6.88,Marcadores,/Imagenes_Catalogo/Pelikan/Markana Twist/C1201.webp
+381,PROD-0103,Pelikan,PELIKAN MARCADOR DELGADO ESTUCHE TWIST C/12,NULL,$81.84,Marcadores,/Imagenes_Catalogo/Pelikan/Markana Twist/C1202.webp
+382,PROD-0104,Pelikan,PELIKAN MARCADOR DELGADO ESTUCHE TWIST C/24,NULL,$146.94,Marcadores,/Imagenes_Catalogo/Pelikan/Markana Twist/C1203.webp
+383,PROD-0105,Pelikan,PELIKAN MARCADOR DELGADO ESTUCHE TWIST C/6,NULL,$42.78,Marcadores,/Imagenes_Catalogo/Pelikan/Markana Twist/C1204.webp
+384,PROD-0106,Pelikan,PELIKAN  DIGITAL 150 ML,"AMARILLO, AZUL, BLANCO, CAFE, NARANJA, NEGRO, ROJO, CARNE, VERDE, VIOLETA, ROSA PASTEL",$48.36,Arte,/Imagenes_Catalogo/Pelikan/Pintura Digital/C1301.webp
+385,PROD-0107,Pelikan,PELIKAN PLASTILINA EN CAJA C/10,NULL,$25.11,Arte,/Imagenes_Catalogo/Pelikan/Plastilina/C1401.webp
+386,PROD-0108,Pelikan,PELIKAN PLASTILINA EN CAJA PASTEL C/10,NULL,$25.11,Arte,/Imagenes_Catalogo/Pelikan/Plastilina/C1402.webp
+387,PROD-0109,Henkel,HENKEL LAPIZ ADHESIVO BULLY 11GR,NULL,$13.95,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Bully/D0201.webp
+388,PROD-0110,Henkel,HENKEL LAPIZ ADHESIVO BULLY 22GR,NULL,$22.32,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Bully/D0202.webp
+389,PROD-0111,Henkel,HENKEL LAPIZ ADHESIVO BULLY 38GR,NULL,$39.06,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Bully/D0203.webp
+390,PROD-0112,Henkel,HENKEL LAPIZ ADHESIVO PRITT 11GR,NULL,$22.32,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Pritt/D0301.webp
+391,PROD-0113,Henkel,HENKEL LAPIZ ADHESIVO PRITT 22GR,NULL,$44.64,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Pritt/D0302.webp
+392,PROD-0114,Henkel,HENKEL LAPIZ ADHESIVO PRITT 42GR,NULL,$78.12,Pegamentos,/Imagenes_Catalogo/Henkel/Adhesivo Pritt/D0303.webp
+393,PROD-0115,Henkel,HENKEL PEGAMENTO RESISTOL 850 35GR,NULL,$23.25,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0401.webp
+394,PROD-0116,Henkel,HENKEL PEGAMENTO RESISTOL 850 1KG,NULL,$256.68,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0402.webp
+395,PROD-0117,Henkel,HENKEL PEGAMENTO RESISTOL 850 110GR,NULL,$50.22,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0403.webp
+396,PROD-0118,Henkel,HENKEL PEGAMENTO RESISTOL 850 225GR,NULL,$93.00,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0404.webp
+397,PROD-0119,Henkel,HENKEL PEGAMENTO RESISTOL 850 490GR,NULL,$154.38,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0405.webp
+398,PROD-0120,Henkel,HENKEL PEGAMENTO RESISTOL 850 55GR,NULL,$37.20,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento 850/D0406.webp
+399,PROD-0121,Henkel,HENKEL PEGAMENTO BULLY 35GR,NULL,$13.95,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0501.webp
+400,PROD-0122,Henkel,HENKEL PEGAMENTO BULLY 1KG,NULL,$154.38,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0502.webp
+401,PROD-0123,Henkel,HENKEL PEGAMENTO BULLY 110GR,NULL,$29.76,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0503.webp
+402,PROD-0124,Henkel,HENKEL PEGAMENTO BULLY 225GR,NULL,$50.22,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0504.webp
+403,PROD-0125,Henkel,HENKEL PEGAMENTO BULLY 490GR,NULL,$91.14,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0505.webp
+404,PROD-0126,Henkel,HENKEL PEGAMENTO BULLY 55GR,NULL,$22.32,Pegamentos,/Imagenes_Catalogo/Henkel/Pegamento Bully/D0506.webp
+405,PROD-0127,Marros,MARROS MR440 COMPAS TUBULAR EMBLISTADO,NULL,$16.74,Geometria,/Imagenes_Catalogo/Marros/Compas/E0201.webp
+406,PROD-0128,Marros,MARROS MR550 JUEGO DE GEO GRANDE IRROMPIBLE COMPAS PREC,NULL,$93.00,Geometria,/Imagenes_Catalogo/Marros/Juegos de Geometria/E0301.webp
+407,PROD-0129,Marros,MARROS MR10 JUEGO DE GEOMETRIA ECOLOGICO,NULL,$40.92,Geometria,/Imagenes_Catalogo/Marros/Juegos de Geometria/E0302.webp
+408,PROD-0130,Marros,MARROS MR30 JUEGO DE GEOMETRIA MEDIANO FLEXIBLE,NULL,$85.56,Geometria,/Imagenes_Catalogo/Marros/Juegos de Geometria/E0303.webp
+409,PROD-0131,Marros,MARROS MR520 JUEGO DE GEOMETRIA GRANDE DE COLORES,NULL,$40.92,Geometria,/Imagenes_Catalogo/Marros/Juegos de Geometria/E0304.webp
+410,PROD-0132,Marros,MARROS MR130 JUEGO DE GEOMETRIA SIDERAL,NULL,$37.20,Geometria,/Imagenes_Catalogo/Marros/Juegos de Geometria/E0305.webp
+411,PROD-0133,Marros,MARROS MR120 REGLA 30CM PLASTICO,NULL,$6.51,Geometria,/Imagenes_Catalogo/Marros/Reglas/E0401.webp
+412,PROD-0134,Marros,MARROS MR340 REGLA 20CM PLASTICO,NULL,$6.51,Geometria,/Imagenes_Catalogo/Marros/Reglas/E0402.webp
+413,PROD-0135,Marros,MARROS MR390 TRANSPORTADOR 180° 10CM,NULL,$4.84,Geometria,/Imagenes_Catalogo/Marros/Transportadores/E0501.webp
+414,PROD-0136,Marros,MARROS MR400 TRANSPORTADOR 360° 12.7CM,NULL,$15.81,Geometria,/Imagenes_Catalogo/Marros/Transportadores/E0502.webp
+415,PROD-0137,Selanusa,SELANUSA DIAMANTINA 50GR,VARIOS COLORES,$13.02,Manualidades,/Imagenes_Catalogo/Selanusa/Diamantina 50g/F0201.webp
+416,PROD-0138,Selanusa,FOAMY CARTULINA LISO,VARIOS COLORES,$11.57,Manualidades,/Imagenes_Catalogo/Selanusa/Foamy Cartulina/F0301.webp
+417,PROD-0139,Selanusa,FOAMY CARTULINA DIAMANTADO,VARIOS COLORES,$17.57,Manualidades,/Imagenes_Catalogo/Selanusa/Foamy Cartulina Diamantado/F0401.webp
+418,PROD-0140,Selanusa,FOAMY CARTA LISO,VARIOS COLORES,$5.58,Manualidades,/Imagenes_Catalogo/Selanusa/Foamy Cta/F0501.webp
+419,PROD-0141,Selanusa,FOAMY CARTA DIAMANTADO,VARIOS COLORES,$87.42,Manualidades,/Imagenes_Catalogo/Selanusa/Foamy Cta Diamantado/F0601.webp
+420,PROD-0142,Selanusa,SELANUSA SILICON LIQUIDO CON 100 ML,NULL,$35.34,Pegamentos,/Imagenes_Catalogo/Selanusa/Silicon Frio/F0701.webp
+421,PROD-0143,Selanusa,SELANUSA SILICON LIQUIDO CON 250 ML.,NULL,$82.77,Pegamentos,/Imagenes_Catalogo/Selanusa/Silicon Frio/F0702.webp
+422,PROD-0144,Selanusa,SELANUSA SILICON LIQUIDO CON 30 ML,NULL,$14.88,Pegamentos,/Imagenes_Catalogo/Selanusa/Silicon Frio/F0703.webp
+423,PROD-0145,Selanusa,SELANUSA SILICON LIQUIDO CON 60 ML,NULL,$23.25,Pegamentos,/Imagenes_Catalogo/Selanusa/Silicon Frio/F0704.webp
+424,PROD-0146,Rodin,RODIN ACUARELA BOMBIN C/12 PASTILLAS EN CARTON,NULL,$24.18,Arte,/Imagenes_Catalogo/Rodin/Acuarela/G0201.webp
+425,PROD-0147,Rodin,RODIN GIS PASTEL SUAVE RODART CON 12 PZS,NULL,$72.54,Arte,/Imagenes_Catalogo/Rodin/Gis Pastel/G0301.webp
+426,PROD-0148,Rodin,RODIN GIS PASTEL SUAVE RODART CON 24 PZS,NULL,$145.08,Arte,/Imagenes_Catalogo/Rodin/Gis Pastel/G0302.webp
+427,PROD-0149,Rodin,RODIN LAPIZ GRADUADO GRAFITO,"H, B, HB, 2H, 2B, 3B, 4B, 5B, 6B, 8B",$16.55,Arte,/Imagenes_Catalogo/Rodin/Lapiz Dibujo/G0401.webp
+428,PROD-0150,Rodin,RODIN PINTURA  ACRILICA POLITEC 20ML,"BLANCO, NEGRO, CAFE, NARANJA, AZUL ULTRAMAR, VERDE, AZUL CELESTE, ROJO, AZUL PASTEL, GRIS, CARNE, MORADO, ROSA MEXICANO, AMARILLO, ROSA PASTEL, LIMON, LILA, PLATA ORO",$13.95,Arte,/Imagenes_Catalogo/Rodin/Pintura Acrilica 20ml/G0501.webp
+429,PROD-0151,Rodin,RODIN PINTURA  ACRILICA POLITEC 100ML,"BLANCO, NEGRO, CAFE, NARANJA, AZUL ULTRAMAR, VERDE, AZUL CELESTE, ROJO, AZUL PASTEL, GRIS, CARNE, MORADO, ROSA MEXICANO, AMARILLO, ROSA PASTEL, LIMON, LILA, PLATA ORO",$44.64,Arte,/Imagenes_Catalogo/Rodin/Pintura Acrilica 100ml/G0601.webp
+430,PROD-0152,Rodin,RODIN PINTURA  ACRILICA POLITEC 250ML,"BLANCO, NEGRO, CAFE, NARANJA, AZUL ULTRAMAR, VERDE, AZUL CELESTE, ROJO, AZUL PASTEL, GRIS, CARNE, MORADO, ROSA MEXICANO, AMARILLO, ROSA PASTEL, LIMON, LILA, PLATA ORO",$102.30,Arte,/Imagenes_Catalogo/Rodin/Pintura Acrilica 250ml/G0701.webp
+431,PROD-0153,Rodin,"RODIN ESTUCHE POLITEC SURTIDO C/12 7 FLUO, 3 MET Y 2 NAC DE 10 ML C/U",NULL,$184.14,Arte,/Imagenes_Catalogo/Rodin/Pintura Acrilica estuche c10/G0801.webp
+432,PROD-0154,Rodin,RODIN ESTUCHE POLITEC  C/12 FRASCOS SURTIDOS Y PINCEL 10ML C/U,NULL,$122.76,Arte,/Imagenes_Catalogo/Rodin/Pintura Acrilica estuche c10/G0802.webp
+433,PROD-0155,Rodin,RODIN VINILICA BOMBIN 250ML,"BLANCO, NEGRO, VERDE, CAFÉ, AZUL, NARANJA, ROJO, AMARILLO, VERDE LIMON, MORADO, AZUL CLARO, ROSA",$44.64,Arte,/Imagenes_Catalogo/Rodin/Pintura Vinilica Bombin/G0901.webp
+434,PROD-0156,Interiorent,INTERORIENT CALCULADORA TIPO BOLSILLO EN CAJA INDIVIDUAL ,NULL,$39.06,Calculadoras,/Imagenes_Catalogo/Interiorent/Calculadora/H0201.webp
+435,PROD-0157,Interiorent,INTERORIENT CALCULADORA CIENTIFICA  CON 220 FUNCIONES,NULL,$117.18,Calculadoras,/Imagenes_Catalogo/Interiorent/Calculadora/H0202.webp
+436,PROD-0158,Interiorent,INTERORIENT ENGRAPADORA DE MEDIA TIRA,NULL,$94.86,Oficina,/Imagenes_Catalogo/Interiorent/Engrapadoras/H0301.webp
+437,PROD-0159,Interiorent,INTERORIENT ENGRAPADORA DE TIRA COMPLETA,NULL,$120.90,Oficina,/Imagenes_Catalogo/Interiorent/Engrapadoras/H0302.webp
+438,PROD-0160,Interiorent,INTERORIENT MINI ENGRAPADORA PORTÁTIL,NULL,$53.94,Oficina,NULL
+439,PROD-0161,Interiorent,INTERORIENT MARCADOR PERMANENTE,"AZUL, ROJO, NEGRO",$14.88,Marcadores,/Imagenes_Catalogo/Interiorent/Marcadores Permanente/H0401.webp
+440,PROD-0162,Naviteck,NAVITEK EMPAQUE NAVITEK CANELA 48 X 150,NULL,$53.94,Cintas,/Imagenes_Catalogo/Naviteck/Cinta de Empaque/I0201.webp
+441,PROD-0163,Naviteck,NAVITEK EMPAQUE NAVITEK NATURAL 48 X 150,NULL,$53.94,Cintas,/Imagenes_Catalogo/Naviteck/Cinta de Empaque/I0202.webp
+442,PROD-0164,Naviteck,NAVITEK EMPAQUE NAVITEK CANELA 48 X 50,NULL,$23.25,Cintas,/Imagenes_Catalogo/Naviteck/Cinta de Empaque/I0203.webp
+443,PROD-0165,Naviteck,NAVITEK EMPAQUE NAVITEK NATURAL 48 X 50,NULL,$23.25,Cintas,/Imagenes_Catalogo/Naviteck/Cinta de Empaque/I0204.webp
+444,PROD-0166,Naviteck,NAVITEK DOBLE CARA DE POLIESTER 18 X50,NULL,$113.46,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Doble cara/I0301.webp
+445,PROD-0167,Naviteck,NAVITEK DOBLE CARA DE POLIESTER 12 X50,NULL,$81.84,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Doble cara/I0302.webp
+446,PROD-0168,Naviteck,NAVITEK CINTA NAVITEK N- 55 12X65,NULL,$20.46,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Transparente/I0401.webp
+447,PROD-0169,Naviteck,NAVITEK CINTA NAVITEK N- 55 18X33,NULL,$11.16,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Transparente/I0402.webp
+448,PROD-0170,Naviteck,NAVITEK CINTA NAVITEK N- 55 18X65,NULL,$29.76,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Transparente/I0403.webp
+449,PROD-0171,Naviteck,NAVITEK CINTA NAVITEK N- 55 24X65,NULL,$37.20,Cintas,/Imagenes_Catalogo/Naviteck/Cinta Transparente/I0404.webp
+450,PROD-0172,Naviteck,NAVITEK CINTA MASKING TAPE 12X50,NULL,$20.46,Cintas,/Imagenes_Catalogo/Naviteck/Masking Tape/I0501.webp
+451,PROD-0173,Naviteck,NAVITEK CINTA MASKING TAPE 48X50,NULL,$79.98,Cintas,/Imagenes_Catalogo/Naviteck/Masking Tape/I0502.webp
+452,PROD-0174,Naviteck,NAVITEK CINTA MASKING TAPE 18X50,NULL,$29.76,Cintas,/Imagenes_Catalogo/Naviteck/Masking Tape/I0503.webp
+453,PROD-0175,Naviteck,NAVITEK CINTA MASKING TAPE 24X50,NULL,$39.06,Cintas,/Imagenes_Catalogo/Naviteck/Masking Tape/I0504.webp
+454,PROD-0176,Kola Loka,KOLA KOLE LAPIZ ADHESIVO 8 GR,NULL,$9.30,Pegamentos,/Imagenes_Catalogo/Kola Loka/Lapiz adhesivo/J0201.webp
+455,PROD-0177,Kola Loka,KOLA KOLE LAPIZ ADHESIVO 20 GR,NULL,$18.60,Pegamentos,/Imagenes_Catalogo/Kola Loka/Lapiz adhesivo/J0202.webp
+456,PROD-0178,Kola Loka,KOLA KOLE LAPIZ ADHESIVO 42 GR,NULL,$46.50,Pegamentos,/Imagenes_Catalogo/Kola Loka/Lapiz adhesivo/J0203.webp
+457,PROD-0179,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 60 GR,NULL,$16.74,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0301.webp
+458,PROD-0180,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 120 GR,NULL,$24.18,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0302.webp
+459,PROD-0181,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 230 GR,NULL,$40.92,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0303.webp
+460,PROD-0182,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 30 GR,NULL,$11.16,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0304.webp
+461,PROD-0183,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 440 GR,NULL,$68.82,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0305.webp
+462,PROD-0184,Kola Loka,KOLA SUEPER KOLE PEGAMENTO BLANCO 900 GR,NULL,$115.32,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamento Blanco/J0306.webp
+463,PROD-0185,Kola Loka,KOLA LOKA BROCHA 5GR,NULL,$47.43,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamentos Instantaneos/J0401.webp
+464,PROD-0186,Kola Loka,KOLA LOKA GOTERITO 3.5GR,NULL,$37.20,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamentos Instantaneos/J0402.webp
+465,PROD-0187,Kola Loka,KOLA PLASTILOKA 20 GRS,NULL,$35.34,Pegamentos,/Imagenes_Catalogo/Kola Loka/Pegamentos Instantaneos/J0403.webp
+466,PROD-0188,Eurocolor,CARTULINA FLUORESCENTE,"AMARILLO, AZUL, MORADO, NARANJA, PAPAYA, ROJO, ROSA, VERDE",$8.93,Extendidos,/Imagenes_Catalogo/Eurocolor/Cartulina Fluor/K0201.webp
+467,PROD-0189,Eurocolor,CARTULINA IRIS,"ROSA MEXICANO, VERDE, VERDE LIMON, AMARILLO, AZUL REY, CAFE, MORADO, NARANJA, VIOLETA, LILA, AZUL CELESTE, NEGRO, ROJO",$10.04,Extendidos,/Imagenes_Catalogo/Eurocolor/Cartulina Iris/K0301.webp
+468,PROD-0190,Eurocolor,ARPAPEL FOLDER PASTEL CARTA,"AZUL, AMARILLO, VERDE, ROSA",$3.35,Folders,/Imagenes_Catalogo/Eurocolor/Folder/K0401.webp
+469,PROD-0191,Eurocolor,ARPAPEL FOLDER PASTEL OFICIO,"AZUL, AMARILLO, VERDE, ROSA",$4.65,Folders,/Imagenes_Catalogo/Eurocolor/Folder/K0402.webp
+470,PROD-0192,Eurocolor,ARPAPEL FOLDER CREMA OFICIO,NULL,$2.98,Folders,/Imagenes_Catalogo/Eurocolor/Folder/K0403.webp
+471,PROD-0193,Eurocolor,ARPAPEL FOLDER CREMA CARTA,NULL,$4.09,Folders,/Imagenes_Catalogo/Eurocolor/Folder/K0404.webp
+472,PROD-0194,Eurocolor,ARPAPEL HOJA COLOR ,VARIOS COLORES,$1.12,Extendidos,/Imagenes_Catalogo/Eurocolor/Hoja Color/K0501.webp
+473,PROD-0195,Eurocolor,ARPAPEL SOBRE MANILA BOLSA CARTA C/HILO,NULL,$9.30,Oficina,/Imagenes_Catalogo/Eurocolor/Sobre c hilo/K0601.webp
+474,PROD-0196,Eurocolor,ARPAPEL SOBRE MANILA BOLSA OFICIO C/HILO,NULL,$11.16,Oficina,/Imagenes_Catalogo/Eurocolor/Sobre c hilo/K0602.webp
+475,PROD-0197,Azor,AZOR AQUARELO GRIP MARCADOR GRUESO DE AGUA,NULL,$17.67,Marcadores,/Imagenes_Catalogo/Azor/Aquarelo grip/L0201.webp
+476,PROD-0198,Azor,AZOR AQUARELO GRIP ESTUCHE CON 12 PZS SURTIDO,NULL,$223.20,Marcadores,/Imagenes_Catalogo/Azor/Aquarelo grip/L0202.webp
+477,PROD-0199,Azor,AZOR AQUARELO JUNIOR ESTUCHE SURTIDO,"CON 6, 12, 24 PIEZAS",$93.00,Marcadores,/Imagenes_Catalogo/Azor/Aquarelo junior/L0301.webp
+478,PROD-0200,Azor,AZOR AQUARELO JUNIOR,VARIOS COLORES,$6.88,Marcadores,/Imagenes_Catalogo/Azor/Aquarelo junior/L0302.webp
+479,PROD-0201,Azor,AZOR SIGNAL DUO PUNTA FINA Y ULTRAFINA PERMANENTE,"ROJO, AZUL, NEGRO",$33.48,Marcadores,/Imagenes_Catalogo/Azor/Boligrafo/L0401.webp
+480,PROD-0202,Azor,AZOR BOLIGRAFO PINPOINT PUNTO MEDIANO,"ROJO, AZUL, NEGRO, VERDE",$5.58,Escritura,/Imagenes_Catalogo/Azor/Boligrafo/L0402.webp
+481,PROD-0203,Azor,AZOR BOLIGRAFO PINPOINT PUNTO FINO,"ROJO, AZUL, NEGRO, VERDE",$9.30,Escritura,/Imagenes_Catalogo/Azor/Boligrafo/L0403.webp
+482,PROD-0204,Azor,AZOR SIGNAL PUNTO FINO PERMANENTE,"ROJO, AZUL, NEGRO",$22.32,Marcadores,/Imagenes_Catalogo/Azor/Boligrafo/L0404.webp
+483,PROD-0205,Azor,AZOR COJIN PARA SELLO DE PLASTICO SIN TINTA # 0,NULL,$46.50,Oficina,/Imagenes_Catalogo/Azor/Cojin Sello/L0501.webp
+484,PROD-0206,Azor,AZOR COJIN PARA SELLO DE PLASTICO SIN TINTA # 1,NULL,$48.36,Oficina,/Imagenes_Catalogo/Azor/Cojin Sello/L0502.webp
+485,PROD-0207,Azor,AZOR COJIN PARA SELLO DE PLASTICO SIN TINTA # 2,NULL,$85.56,Oficina,/Imagenes_Catalogo/Azor/Cojin Sello/L0503.webp
+486,PROD-0208,Azor,AZOR MARCADOR PARA PINTARRON MAGISTRAL DIDACTICO,"ROJO, AZUL, NEGRO, VERDE",$34.41,Marcadores,/Imagenes_Catalogo/Azor/Magistral/L0601.webp
+487,PROD-0209,Azor,AZOR MARCADOR PARA PINTARRON MAGISTRAL PUNTO FINO,"ROJO, AZUL, NEGRO, VERDE",$34.41,Marcadores,/Imagenes_Catalogo/Azor/Magistral Fino/L0701.webp
+488,PROD-0210,Azor,AZOR TINTA STTAFORD TIPO CANICA,"ROJO, AZUL, NEGRO",$48.36,Oficina,/Imagenes_Catalogo/Azor/Tinta Sello/L0801.webp
+489,PROD-0211,8A,8A CUADERNO PROFESIONAL DE 200HJS PASTA DURA CON ESPIRAL,"RAYA, CUADRO GRANDE",$167.40,Cuadernos,/Imagenes_Catalogo/8A/Cuaderno 200 hjs/M0201.webp
+490,PROD-0212,8A,8A CUADERNO PROFESIONAL DE 200HJS PASTA SUAVE CON ESPIRAL,"RAYA, CUADRO GRANDE",$111.60,Cuadernos,/Imagenes_Catalogo/8A/Cuaderno 200 hjs/M0202.webp
+491,PROD-0213,8A,8A CUADERNO ROCA PROFESIONAL COSIDO DE 100 HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO",$53.01,Cuadernos,/Imagenes_Catalogo/8A/Cuaderno Cosido/M0301.webp
+492,PROD-0214,8A,8A CUADERNO ROCA ITALIANO COSIDO DE 100 HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO, CUADRO ALEMAN",$35.34,Cuadernos,/Imagenes_Catalogo/8A/Cuaderno Cosido/M0302.webp
+493,PROD-0215,8A,8A CUADERNO ROCA FRANCES COSIDO 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO; VARIOS COLORES",$35.34,Cuadernos,/Imagenes_Catalogo/8A/Cuaderno Cosido/M0303.webp
+494,PROD-0216,Sajor,SAJOR CARTULINA BRISTOL BLANCA,NULL,$10.33,Extendidos,/Imagenes_Catalogo/Sajor/Cartulinas/N0201.webp
+495,PROD-0217,Sajor,SAJOR CARTULINA BRISTOL COLORES PASTEL,"AMARILLO, AZUL, VERDE, ROSA",$11.37,Extendidos,/Imagenes_Catalogo/Sajor/Cartulinas/N0202.webp
+496,PROD-0218,Sajor,SAJOR BLOCK VEGETAL (PAPEL MANTEQUILLA) 25 HOJAS T/C,NULL,$68.82,Extendidos,/Imagenes_Catalogo/Sajor/Mantequilla/N0301.webp
+497,PROD-0219,Sajor,SAJOR SILICON SAIRA DELGADO O GRUESO,NULL,$204.60,Manualidades,/Imagenes_Catalogo/Sajor/Silicon barra/N0401.webp
+498,PROD-0220,Popular,COLORIM BARRA PLASTILINA COLORCITOS,"AMARILLO, AZUL REY, AZUL CLARO, BLANCO, CAFE, CARNE, GRIS, NARANJA, NEGRO, ROJO, ROSA CLARO, VERDE, VERDE LIMON, VIOLETA, FIUSHA, ",$16.74,Arte,/Imagenes_Catalogo/Popular/Plastilina Barra/O0201.webp
+499,PROD-0221,Jocar,JOCAR FLAUTA TRANSPARENTE JOCAR FT,NULL,$57.66,Arte,/Imagenes_Catalogo/Jocar/Jocar Flautas/P0201.webp
+500,PROD-0222,Jocar,JOCAR FLAUTA ESCOLAR SOPRANO JOCAR FS,NULL,$57.66,Arte,/Imagenes_Catalogo/Jocar/Jocar Flautas/P0202.webp
+501,PROD-0223,Jocar,JOCAR PORTALAPICES DOBLE COMPARTIMENTO LDC,NULL,$37.20,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapicera/P0301.webp
+502,PROD-0224,Jocar,JOCAR COLORES CON 12 PZS LARGOS,NULL,$37.20,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0401.webp
+503,PROD-0225,Jocar,JOCAR COLORES CON 24 PZS LARGOS,NULL,$74.40,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0402.webp
+504,PROD-0226,Jocar,JOCAR COLORES NEGRO PREMIUM CAJA DE PLASTICO CON 24 PZS,NULL,$130.20,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0403.webp
+505,PROD-0227,Jocar,JOCAR COLORES JOCARITOS BORRABLES CON 24 PZS LARGOS,NULL,$104.16,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0404.webp
+506,PROD-0228,Jocar,JOCAR MARCADOR BASE AGUA SURTIDO CON 12 PZS Y AROMA A FRUTAS,NULL,$146.94,Marcadores,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0405.webp
+507,PROD-0229,Jocar,JOCAR LAPIZ ENTRENADOR INICIAL,NULL,$14.88,Escritura,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0406.webp
+508,PROD-0230,Jocar,JOCAR COLORES CON 12 PZS CORTO,NULL,$18.60,Arte,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0407.webp
+509,PROD-0231,Jocar,JOCAR COLORES JOCARITOS BORRABLES CON 12 PZS LARGOS,NULL,$52.08,Arte,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0408.webp
+510,PROD-0232,Jocar,JOCAR LAPIZ SUPREME TRIANGULAR 2HB NEGRO/NARANJA,NULL,$5.58,Arte,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0409.webp
+511,PROD-0233,Jocar,JOCAR TIJERA ESCOLAR CON FUNDA,NULL,$12.09,Tijeras,/Imagenes_Catalogo/Jocar/Jocar Lapices/P0410.webp
+512,PROD-0234,Jocar,JOCAR GEOPLANO JOCAR,NULL,$34.41,Arte,/Imagenes_Catalogo/Jocar/Jocar Varios/P0501.webp
+513,PROD-0235,Jocar,JOCAR JUEGO GEOMETRIA FLEXIBLE MEDIANO CON COMPAS PRECISION JGFM,NULL,$65.10,Geometria,/Imagenes_Catalogo/Jocar/Jocar Varios/P0502.webp
+514,PROD-0236,Jocar,JOCAR JUEGO GEOMETRIA FLEXIBLE EN BOLSA MEDIANO COMPAS PRECISION,NULL,$55.80,Geometria,/Imagenes_Catalogo/Jocar/Jocar Varios/P0503.webp
+515,PROD-0237,Jocar,JOCAR REGLA FLEXIBLE DE 30CM,NULL,$7.44,Geometria,/Imagenes_Catalogo/Jocar/Jocar Varios/P0504.webp
+516,PROD-0238,Gondi,GONDI CASCARON DE HUEVO MEDIO 1/2,NULL,$27.90,Extendidos,/Imagenes_Catalogo/Gondi/Cascaron/Q0201.webp
+517,PROD-0239,Gondi,GONDI CASCARON DE HUEVO MEDIO 1/4,NULL,$13.02,Extendidos,/Imagenes_Catalogo/Gondi/Cascaron/Q0202.webp
+518,PROD-0240,Gondi,GONDI CASCARON DE HUEVO MEDIO 1/8,NULL,$6.51,Extendidos,/Imagenes_Catalogo/Gondi/Cascaron/Q0203.webp
+519,PROD-0241,Gondi,GONDI PAPEL DE CHINA,VARIOS COLORES,$45.47,Extendidos,/Imagenes_Catalogo/Gondi/China/Q0301.webp
+520,PROD-0242,Pascua,PASCUA LAPIZ BICOLOR AZUL/ROJO,NULL,$6.51,Escritura,/Imagenes_Catalogo/Pascua/Escritura/R0201.webp
+521,PROD-0243,Pascua,PASCUA LAPIZ DUO GRAFITO/ROJO,NULL,$6.51,Escritura,/Imagenes_Catalogo/Pascua/Escritura/R0202.webp
+522,PROD-0244,Jc,JC CUADERNO FORMA ITALIANA ESPIRAL DE METAL CON 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO",$26.97,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0201.webp
+523,PROD-0245,Jc,JC CUADERNO FORMA ITALIANA PAUTADO ,NULL,$26.97,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0202.webp
+524,PROD-0246,Jc,JC CUADERNO MARQUILLA 10,NULL,$31.62,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0203.webp
+525,PROD-0247,Jc,JC CUADERNO MARQUILLA 20,NULL,$53.94,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0204.webp
+526,PROD-0248,Jc,JC CUADERNO MARQUILLA 30,NULL,$78.12,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0205.webp
+527,PROD-0249,Jc,JC CUADERNO MARQUILLA 50,NULL,$130.20,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0206.webp
+528,PROD-0250,Jc,JC CUADERNO PROFESIONAL PAUTADO,NULL,$76.26,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0207.webp
+529,PROD-0251,Jc,JC BLOCK TABLA CHICO,NULL,$57.66,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0208.webp
+530,PROD-0252,Jc,JC CUADERNO FORMA FRANCESA ESPIRAL DE METAL CON 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO",$26.97,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0209.webp
+531,PROD-0253,Jc,JC CUADERNO PROFESIONAL CON 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO, MIXTO, CUADRO ALEMAN",$29.76,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0210.webp
+532,PROD-0254,Jc,JC CUADERNO PARA TAQUIGRAFIA,NULL,$13.02,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0211.webp
+533,PROD-0255,Jc,JC TRUSSEL HOJA REPUESTO PARA RECOPILADOR PAQUETE CON 100 HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DIBUJO",$55.80,Cuadernos,/Imagenes_Catalogo/Jc/Cuadernos/S0212.webp
+534,PROD-0256,Manny,MANNY MEMORIA USB 32 GB,NULL,$130.20,Oficina,/Imagenes_Catalogo/Manny/USB/T0201.webp
+535,PROD-0257,Manny,MANNY MEMORIA USB 16 GB,NULL,$120.90,Oficina,/Imagenes_Catalogo/Manny/USB/T0202.webp
+536,PROD-0258,Manny,MANNY MEMORIA USB 8 GB,NULL,$111.60,Oficina,/Imagenes_Catalogo/Manny/USB/T0203.webp
+537,PROD-0259,Sunrise,SUNRISE ALBUM DE CUERPOS GEOMETRICOS BLANCO Y NEGRO,NULL,$43.71,Didacticos,/Imagenes_Catalogo/Sunrise/Album/U0201.webp
+538,PROD-0260,Sunrise,SUNRISE ALBUM DE CUERPOS GEOMETRICOS FLUORECENTE,NULL,$74.61,Didacticos,/Imagenes_Catalogo/Sunrise/Album/U0202.webp
+539,PROD-0261,Sunrise,SUNRISE ALFABETO MOVIL,"GRANDE, CHICO",$213.90,Didacticos,/Imagenes_Catalogo/Sunrise/Didacticos/U0301.webp
+540,PROD-0262,Selecto,SELECTO CUADERNO PROFESIONAL ESPIRAL DE 200HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO",$94.86,Cuadernos,/Imagenes_Catalogo/Selecto/Cuadernos/V0201.webp
+541,PROD-0263,Selecto,SELECTO CUADERNO PROFESIONAL ESPIRAL DE 100HJS PASTA DURA,"RAYA, CUADRO GRANDE, CUADRO CHICO",$176.70,Cuadernos,/Imagenes_Catalogo/Selecto/Cuadernos/V0202.webp
+542,PROD-0264,Selecto,SELECTO CUADERNO FRANCESA 100HJS PASTA DURA Y DOBLE ESPIRAL,"RAYA, CUADRO GRANDE, CUADRO CHICO",$65.10,Cuadernos,/Imagenes_Catalogo/Selecto/Cuadernos/V0203.webp
+543,PROD-0265,Makiko,MAKIKO PLASTILINA DE BARRA,"BLANCO, AMARILLO, ROJO, ROSA, VERDE LIMON, VERDE, AZUL PASTEL, AZUL REY, CAFE, NARANJA, NEGRO, GRIS, MORADO, CARNE, FIUSHA, LILA",$14.88,Arte,/Imagenes_Catalogo/Makiko/Plastilina Barra/W0201.webp
+544,PROD-0266,Makiko,MAKIKO PLASTILINA EN CAJA C/10 COLORES SURTIDOS,NULL,$18.60,Arte,/Imagenes_Catalogo/Makiko/Plastilina c10/W0301.webp
+545,PROD-0267,Makiko,MAKIKO PLASTILINA EN CAJA C/10 COLORES PASTEL SURTIDOS,NULL,$18.60,Arte,/Imagenes_Catalogo/Makiko/Plastilina c10/W0302.webp
+546,PROD-0268,Papparazzi,PAPPARAZZI CORDON PARA GAFETE EJECUTIVO ,"NEGRO, AZUL REY, ROJO, VERDE, MORADO, AMARILLO, NARANJA, FIUSHA,VERDE LIMON, ROSA PASTEL, AZUL CIELO, BLANCO",$24.18,Oficina,/Imagenes_Catalogo/Papparazzi/Cordon Ejecutivo/X0201.webp
+547,PROD-0269,Papparazzi,PAPPARAZZI CORDON PARA GAFETE ESCOLAR,"NEGRO, AZUL REY, ROJO, VERDE, MORADO, AMARILLO, NARANJA, FIUSHA,VERDE LIMON, ROSA PASTEL, AZUL CIELO, BLANCO",$3.72,Oficina,/Imagenes_Catalogo/Papparazzi/Cordon Sencillo/X0301.webp
+548,PROD-0270,Janel,JANEL PAPEL LUSTRE,"NEGRO, AZUL REY, ROJO, VERDE, MORADO, AMARILLO, NARANJA, FIUSHA,VERDE LIMON, ROSA PASTEL, AZUL CIELO, BLANCO",$5.58,Extendidos,/Imagenes_Catalogo/Janel/Lustre/Y0201.webp
+549,PROD-0271,Mixto,SCRIBE CUADERNO MEGA PROFESIONAL CON 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DOBLE RAYA, DIBUJO, MIXTO",$35.96,Cuadernos,/Imagenes_Catalogo/Mixto/Cuadernos/Z0201.webp
+550,PROD-0272,Mixto,SCRIBE CUADERNO ESCOLAR PROFESIONAL CON 100HJS,"RAYA, CUADRO GRANDE, CUADRO CHICO, DIBUJO",$35.96,Cuadernos,/Imagenes_Catalogo/Mixto/Cuadernos/Z0202.webp
+551,PROD-0273,Mixto,LAROUSSE  DICCIONARIO POCKET INGLES-ESPAÑOL,NULL,$111.60,Cuadernos,/Imagenes_Catalogo/Mixto/Diccionarios/Z0301.webp
+552,PROD-0274,Mixto,LAROUSSE  DICCIONARIO ESCOLAR ROJO,NULL,$128.34,Cuadernos,/Imagenes_Catalogo/Mixto/Diccionarios/Z0302.webp
+553,PROD-0275,Mixto,LAROUSSE  DICCIONARIO LENGUA ESPAÑOLA VERDE,NULL,$165.54,Cuadernos,/Imagenes_Catalogo/Mixto/Diccionarios/Z0303.webp
+554,PROD-0276,Mixto,LAROUSSE  DICCIONARIO BASICO ESCOLAR AZUL,NULL,$97.65,Cuadernos,/Imagenes_Catalogo/Mixto/Diccionarios/Z0304.webp
+555,PROD-0277,Mixto,CROWNEDBULL SELLO PUNTO GUIA 7MM,NULL,$79.98,Oficina,/Imagenes_Catalogo/Mixto/Sello/Z0401.webp
+556,PROD-0278,Mixto,CROWNEDBULL SELLO PUNTO GUIA 5MM,NULL,$79.98,Oficina,/Imagenes_Catalogo/Mixto/Sello/Z0402.webp
+,PROD-0279,Mixto,PAQUETE DE HOJAS BLANCAS C/100 ,NULL,$40.00,Ofinina,/Imagenes_Catalogo/Mixto/Papel/Z0401.webp
+,PROD-0280,Mixto,PAQUETE DE HOJAS BLANCAS C/500,NULL,$134.00,Ofinina,/Imagenes_Catalogo/Mixto/Papel/Z0402.webp
